@@ -28,8 +28,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @author Agustina
  */
 @RestController
-@RequestMapping("explab")
-@CrossOrigin(origins = "https://frontend-portfolio-565d1.web.app")
+@RequestMapping("/explab")
+@CrossOrigin(origins = "https://frontend-porfolioabb.web.app")
 public class CExperiencia {
     @Autowired
     SExperiencia sExperiencia;
